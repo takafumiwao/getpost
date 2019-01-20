@@ -1,0 +1,6 @@
+framework module Pods_getpost {
+  umbrella header "Pods-getpost-umbrella.h"
+
+  export *
+  module * { export * }
+}
