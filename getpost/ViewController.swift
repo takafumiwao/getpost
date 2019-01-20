@@ -14,7 +14,13 @@ class ViewController: UIViewController {
     super.viewDidLoad()
     // Do any additional setup after loading the view, typically from a nib.
   }
-
-
+  
+  
+  @IBOutlet weak var textfield: UITextField!
+  
+  @IBOutlet weak var textView: UITextView!
+  
+  @IBAction func postButton(_ sender: UIButton) {
+  }
 }
 

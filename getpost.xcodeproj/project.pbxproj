@@ -14,6 +14,7 @@
 		CDFDEBB921F47C8E00D2A0ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDFDEBB721F47C8E00D2A0ED /* LaunchScreen.storyboard */; };
 		CDFDEBC421F47C8E00D2A0ED /* getpostTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFDEBC321F47C8E00D2A0ED /* getpostTests.swift */; };
 		CDFDEBCF21F47C8E00D2A0ED /* getpostUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFDEBCE21F47C8E00D2A0ED /* getpostUITests.swift */; };
+		CDFDEBDD21F47D8C00D2A0ED /* GetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFDEBDC21F47D8C00D2A0ED /* GetViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		CDFDEBCA21F47C8E00D2A0ED /* getpostUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = getpostUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDFDEBCE21F47C8E00D2A0ED /* getpostUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getpostUITests.swift; sourceTree = "<group>"; };
 		CDFDEBD021F47C8E00D2A0ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDFDEBDC21F47D8C00D2A0ED /* GetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				CDFDEBAE21F47C8C00D2A0ED /* AppDelegate.swift */,
 				CDFDEBB021F47C8C00D2A0ED /* ViewController.swift */,
 				CDFDEBB221F47C8C00D2A0ED /* Main.storyboard */,
+				CDFDEBDC21F47D8C00D2A0ED /* GetViewController.swift */,
 				CDFDEBB521F47C8E00D2A0ED /* Assets.xcassets */,
 				CDFDEBB721F47C8E00D2A0ED /* LaunchScreen.storyboard */,
 				CDFDEBBA21F47C8E00D2A0ED /* Info.plist */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDFDEBDD21F47D8C00D2A0ED /* GetViewController.swift in Sources */,
 				CDFDEBB121F47C8C00D2A0ED /* ViewController.swift in Sources */,
 				CDFDEBAF21F47C8C00D2A0ED /* AppDelegate.swift in Sources */,
 			);
